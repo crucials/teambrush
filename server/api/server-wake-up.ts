@@ -1,6 +1,6 @@
 import { connect } from '~/server'
 
-export default async () => {
+export default function handler() {
     connect(socket => {
         socket.disconnect()
     })
