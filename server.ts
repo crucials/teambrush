@@ -2,6 +2,7 @@ import { io, Socket } from 'socket.io-client'
 import { DrawEventCallback, DrawEventData } from './types'
 
 export const SERVER_URL = 'wss://teambrush-backend.onrender.com'
+export const SERVER_URL_HTTP = 'https://teambrush-backend.onrender.com'
 
 export let connected = false
 

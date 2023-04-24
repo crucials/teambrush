@@ -1,10 +1,8 @@
 import { Handler, HandlerContext, HandlerEvent, schedule } from '@netlify/functions'
-import { connect } from '~/server'
+import { SERVER_URL_HTTP } from '~/server'
 
 const scheduledHandler : Handler = async (event: HandlerEvent, context: HandlerContext) => {
-    connect(socket => {
-        socket.disconnect()
-    })
+    await fetch(SERVER_URL_HTTP)
  
     return {
        statusCode: 200,
