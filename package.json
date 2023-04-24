@@ -17,6 +17,7 @@
     "sass": "^1.62.0"
   },
   "dependencies": {
+    "@netlify/functions": "^1.4.0",
     "@pinia/nuxt": "^0.4.9",
     "pinia": "^2.0.35",
     "socket.io-client": "^4.6.1"

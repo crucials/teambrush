@@ -1,8 +1,0 @@
-{
-    "crons": [
-      {
-        "path": "/vercel/functions/server-wake-up",
-        "schedule": "*/10 * * * *"
-      }
-    ]
-  }
