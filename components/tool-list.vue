@@ -9,7 +9,7 @@
         </li>
 
         <li>
-            <ColorPicker/>
+            <ColorPicker class="draw-color-picker"/>
         </li>
 
         <li v-for="tool in tools">

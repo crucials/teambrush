@@ -70,6 +70,7 @@
         opacity: 0;
         pointer-events: none;
         transition: top 0.35s ease-in-out, opacity 0.3s;
+        max-width: 210px;
 
         padding: 16px 14px;
         background-color: white;
@@ -116,5 +117,17 @@
 
     .green-background {
         background-color: #005944;
+    }
+
+    @media (max-width: 500px) {
+        .colors-drop-down-list {
+            left: -300%;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .colors-drop-down-list {
+            left: 0px;
+        }
     }
 </style>
