@@ -6,7 +6,24 @@
 </template>
 
 <script setup lang="ts">
+    useHead({
+        title: 'Teambrush - collaborative drawing',
+        link: [
+            {
+                rel: 'icon',
+                type: 'image/png',
+                href: '/favicon.png',
+                media: '(prefers-color-scheme: light)'
+            },
 
+            {
+                rel: 'icon',
+                type: 'image/png',
+                href: '/favicon-dark-theme.png',
+                media: '(prefers-color-scheme: dark)'
+            }
+        ]
+    })
 </script>
 
 <style lang="scss">
