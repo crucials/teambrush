@@ -125,7 +125,7 @@
         }
     }
 
-    @media (max-width: 360px) {
+    @media (max-width: 350px) {
         .colors-drop-down-list {
             left: 0px;
         }
