@@ -11,3 +11,5 @@ If you want to try real-time drawing, open two browser tabs
 :hammer: Frontend was built with Vue 3, Nuxt, Typescript, Pinia, SCSS.
 
 [Backend](https://github.com/crucials/teambrush-backend) was built with Socket.io 
+
+![screencapture-teambrush-netlify-app-2023-04-25-07_59_58](https://user-images.githubusercontent.com/83793845/234163999-2df5b004-0232-4095-82ae-7930a2d0b60a.png)
