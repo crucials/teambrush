@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
     useHead({
-        title: 'Teambrush - collaborative drawing',
+        title: 'TeamBrush - collaborative drawing',
         link: [
             {
                 rel: 'icon',
