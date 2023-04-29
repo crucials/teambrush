@@ -8,7 +8,7 @@ If you want to try real-time drawing, open two browser tabs
 
 [View the app](https://teambrush.netlify.app/) :eyes:
 
-:hammer: Frontend was built with Vue 3, Nuxt, Typescript, Pinia, SCSS.
+:hammer: Frontend was built with Vue 3, Nuxt, Typescript, Pinia, SCSS. Nuxt is probably useless for now, but will help in future (with routing for private rooms)
 
 [Backend](https://github.com/crucials/teambrush-backend) was built with Socket.io 
 
